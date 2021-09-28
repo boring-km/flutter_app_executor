@@ -29,9 +29,9 @@ class MainPage extends StatelessWidget {
           children: [
             Text("Flutter App Test", style: TextStyle(color: Colors.blue, fontSize: 30),),
             ElevatedButton(onPressed: () async {
-              bool result = await LaunchApp.isAppInstalled(androidPackageName: '안드로이드 패키지명', iosUrlScheme: '');
+              bool result = await LaunchApp.isAppInstalled(androidPackageName: '안드로이드 패키지명', iosUrlScheme: 'mobilenotes://');
               if (result) LaunchApp.openApp(androidPackageName: '안드로이드 패키지명', iosUrlScheme: '', appStoreLink: '', openStore: false);
-            }, child: Text("이동할 앱 1")),
+            }, child: Text("메모 앱")),
             ElevatedButton(onPressed: () {}, child: Text("이동할 앱 2")),
           ],
         ),
