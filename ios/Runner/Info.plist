@@ -41,5 +41,9 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>LSApplicationQueriesSchemes</key>
+    <array>
+    	<string>mobilenotes</string> // url scheme name of the app
+    </array>
 </dict>
 </plist>
