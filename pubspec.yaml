@@ -13,7 +13,8 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
-  external_app_launcher: ^2.0.0
+  external_app_launcher: ^2.0.2
+  device_apps: ^2.1.1
 
 dev_dependencies:
   flutter_test:

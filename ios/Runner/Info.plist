@@ -48,6 +48,7 @@
 	<key>LSApplicationQueriesSchemes</key>
       <array>
       	<string>mobilenotes</string>
+      	<string>nkrvbible</string>
       </array>
 </dict>
 </plist>
